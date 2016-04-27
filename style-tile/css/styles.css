@@ -1,2 +1,48 @@
 
 
+
+
+.color-1{
+	background: red;
+
+}
+
+.color-2{
+	background: #7DD4AD;
+}
+
+.color-3{
+	background: #3A8E2F;
+
+}
+
+.color-4{
+	background: black;
+}
+
+.color-5{
+	background: blue;
+}
+
+
+.pattern-1{
+	background: url("http://bgfons.com/upload/rainbow_texture679.jpg");
+	background-size: contain;
+}
+
+.pattern-2{
+	background: url("http://i46.tinypic.com/23hauxk.jpg");
+	
+}
+
+.pattern-3{
+	
+}
+
+.pattern-4{
+	
+}
+
+.pattern-5{
+	
+}
