@@ -1,7 +1,7 @@
 
 
 
-
+/*colors*/
 .color-1{
 	background: red;
 
@@ -23,6 +23,8 @@
 .color-5{
 	background: blue;
 }
+
+/*patterns*/
 
 
 .pattern-1{
@@ -50,3 +52,56 @@
 	background: url("http://www.designswan.com/wp-content/uploads/2009/Vector/3DSpaceTexture/space6.jpg");
 	background-size: contain;
 }
+
+/*imagery*/
+
+.imagery-1 img{
+	box-shadow: -5px -5px 0 red,
+				-10px -10px 0 white,
+				-15px -15px 0 blue;
+}
+
+/*icons*/
+
+.icon-1 {
+	border: none;
+}
+
+.icon-2{
+	background: url("../img/icon2.png");
+	background-size: contain;
+}
+
+.icon-3{
+	background: url("../img/icon3.png");
+	background-size: contain;
+}
+
+/*nav*/
+nav li{
+	list-style: none;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
