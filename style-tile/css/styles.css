@@ -32,17 +32,21 @@
 
 .pattern-2{
 	background: url("http://i46.tinypic.com/23hauxk.jpg");
+	background-size: contain;
 	
 }
 
 .pattern-3{
-	
+	background: url("../img/img1.jpeg");
+	background-size: contain;
 }
 
 .pattern-4{
-	
+	background: url("../img/bricks.jpg");
+	background-size: contain;
 }
 
 .pattern-5{
-	
+	background: url("http://www.designswan.com/wp-content/uploads/2009/Vector/3DSpaceTexture/space6.jpg");
+	background-size: contain;
 }
