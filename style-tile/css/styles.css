@@ -70,20 +70,53 @@
 .icon-2{
 	background: url("../img/icon2.png");
 	background-size: contain;
+	border: none;
 }
 
 .icon-3{
 	background: url("../img/icon3.png");
 	background-size: contain;
+	border: none;
 }
 
 /*nav*/
 nav li{
 	list-style: none;
-	display: inline-block;
+	float: left;
+
 }
 
+nav a:link{
+	background: red;
+	padding: 5px 20px 5px 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-decoration: none;
+	border: 5px groove teal;
+}
 
+nav a:visited{
+	color: white;
+}
+
+nav a:active{
+	background: black;
+	color: white;
+	border 5px ridge teal;
+}
+
+nav a:focus{
+	background: blue;
+	color: red;
+	border 5px ridge teal;
+}
+
+nav a:hover{
+	background: purple;
+	color: yellow;
+	margin-top:40px;
+	
+}
 
 
 
