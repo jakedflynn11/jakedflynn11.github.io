@@ -2,6 +2,47 @@
 
 /* Written and Styled by Jake Flynn */
 
+/* GLOBALS */
+
+html body{
+	background-image: url("../img/bg.jpg");
+}
+
+/* END GLOBALS */
+
+
+
 header img{
 	width: 100px;
+	float:left;
 }
+
+
+
+
+/* nav styling */
+nav li{
+  list-style: none;
+  display: inline-block;
+  
+}
+
+nav a:link,
+nav a:visited {
+  background: red;
+  text-decoration: none;
+  padding: 1em;
+}
+
+nav a:hover{
+  background: blue;
+  color: red;
+  margin-left: 10px;
+  transition: all .75s;
+}
+
+nav a:active{
+  background: black;
+  color: white;
+}
+
