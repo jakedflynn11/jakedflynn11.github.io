@@ -1,6 +1,7 @@
 
 
 /* Written and Styled by Jake Flynn */
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
 
 /* GLOBALS */
 
@@ -10,14 +11,17 @@ html body{
 
 /* END GLOBALS */
 
-
-
 header img{
 	width: 100px;
 	float:left;
 }
 
-
+article img{
+    
+}
+h1{
+    color: aliceblue;
+}
 
 
 /* nav styling */
@@ -46,3 +50,13 @@ nav a:active{
   color: white;
 }
 
+
+/*Quote*/
+
+blockquote{
+    color: ghostwhite;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 2px 2px 0 red;
+    font-family: 'IM Fell Double Pica', serif;
+}
