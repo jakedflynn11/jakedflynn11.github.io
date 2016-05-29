@@ -1,4 +1,4 @@
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Indie+Flower|Poiret+One|Lobster|Covered+By+Your+Grace);
 
 
 /*colors*/
@@ -117,6 +117,64 @@ nav a:hover{
 	margin-top:40px;
 	
 }
+
+h1{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2{
+	font-family: 'Poiret One', cursive;
+}
+
+h3{
+	font-family: 'Covered By Your Grace', cursive;
+}
+
+p{
+	font-family: 'Indie Flower', cursive;
+}
+
+a{
+	font-family: 'Lobster', cursive;
+}
+
+
+.button {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 12px 24px;
+   -webkit-border-radius: 33px;
+   -moz-border-radius: 33px;
+   border-radius: 15px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 18px;
+   font-family: 'Architects Daughter', cursive;
+   text-decoration: none;
+   vertical-align: middle;
+   transform: scale(1);
+    transform: rotate(0deg);
+    transition: transform 1s;
+   }
+.button:hover {
+    border-top-color: #084d78;
+    background: #084d78;
+    color: #ccc;
+    transform: scale(1.2);
+    transition: transform 1s;
+   }
+.button:active # {
+    border-top-color: #1b435e;
+    background: #1b435e;
+   }
 
 
 
