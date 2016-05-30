@@ -1,0 +1,221 @@
+
+
+/* html elements*/
+
+body{
+	width: 80%;
+	margin: auto;
+	background: black;
+	
+}
+
+h1{
+	color: white;
+	font-size: 2.5em;
+}
+
+h2{
+	font-size: 2em;
+	color: white;
+	text-align: center;
+
+}
+
+h3{
+	font-size: 2em;
+	color: white;
+
+	margin: auto;
+}
+
+h4{
+	color: white;
+}
+
+p{
+	color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 1.1em;
+
+}
+
+ul{
+	list-style: none;
+}
+
+
+
+progress {
+	width: 150px;
+	height: 14px;
+	margin: auto;
+	display: block;
+	-webkit-appearance: none;
+	border: none;
+}
+
+progress::-webkit-progress-bar {
+	background: darkgrey;
+	border-radius: 50px;
+	padding: 2px;
+	box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.2);
+}
+
+/* Now the value part */
+progress::-webkit-progress-value {
+	border-radius: 50px;
+	box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.4);
+	background: 
+	-webkit-linear-gradient(45deg, transparent, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%),
+	-webkit-linear-gradient(top, aqua, darkblue),
+	-webkit-linear-gradient(left, #ba7448, #c4672d);
+
+}
+
+/* end html elements */
+
+/* classes */
+
+.mainContent{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background: url("../img/bg3.jpg");
+	background-size: contain;
+
+
+}
+
+.header, .bio, .education, .skills, .work{
+	
+
+}
+
+
+
+
+/* end classes */
+
+.header{
+	width: 80%;
+	margin: auto;
+	/*width: 50%;
+	background: red;
+	display:flex;
+	flex:1 0 auto; 
+	flex-direction:column;
+	border: 10px solid black;*/
+}
+
+.img{
+	/*width: 50%;
+	display:flex;
+	flex:1 0 auto; 
+	flex-direction:column;
+	border: 10px solid black;*/
+	
+	
+}
+
+.img-flex{
+	
+	background: url("../img/me&babe.jpg");
+	height: 200px;
+	width: 200px;
+	float: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-right: 20px;
+	margin-right: 20px;
+	border: 2px groove black;
+	border-radius: 80px;
+	
+}
+
+
+
+
+.bio{
+	width: 80%;
+	margin: auto;
+	margin: 20px;
+	
+	/*width: 50%;
+	
+	display:flex;
+	flex:1 0 auto; 
+	flex-direction:column;
+	border: 10px solid black;*/
+}
+
+
+.skills{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 20px;
+	
+}
+
+.education{
+
+
+	/*width: 50%;
+	
+	display:flex;
+	flex:1 0 auto;
+	flex-direction:column;
+	border: 10px solid black;*/
+}
+
+
+
+.work{
+
+
+	/*width: 50%;
+	
+	display:flex;
+	flex:1 0 auto; 
+	flex-direction:column;
+	border: 10px solid black;*/
+}
+
+.prgBarContainer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+
+
+}
+
+.flex-item{
+	/*align-self: center;*/
+	padding-left: 15px;
+	padding-right: 15px;
+	color: white;
+	padding: 10px;
+
+}
+
+/* hybrid */
+
+/* end hybrid */
+
+
+
+
+
+
+
+
+
+
+
+
